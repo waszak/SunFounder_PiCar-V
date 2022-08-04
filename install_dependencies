@@ -120,12 +120,12 @@ else
     fi
 fi
 
-# echo -e "\nInstalling libjpeg8-dev \n"
-# if sudo apt-get install libjpeg8-dev -y; then
-#     echo -e "    Successfully installed libjpeg8-dev \n"
+# echo -e "\nInstalling libjpeg9-dev \n"
+# if sudo apt-get install libjpeg9-dev -y; then
+#     echo -e "    Successfully installed libjpeg9-dev \n"
 #     is_installed_libjpeg8_dev=true
 # else
-#     echo -e "    Failed to installed libjpeg8-dev \n"
+#     echo -e "    Failed to installed libjpeg9-dev \n"
 #     echo -e "    Do you want to skip this? \c"
 #     if_continue
 #     if [ $? = 1 ] ; then
